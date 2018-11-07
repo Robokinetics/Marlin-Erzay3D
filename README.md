@@ -1,7 +1,7 @@
 # Marlin-Erzay3D
 Прошивка Marlin 1.1.9 для принтеров Erzay3D
 
-<img src="https://github.com/Robokinetics/Marlin-Erzay3D/blob/master/Logo2a.png?raw=true"/>
+<p style="text-align: center;"><img src="https://github.com/Robokinetics/Marlin-Erzay3D/blob/master/Logo2a.png?raw=true"/></p> 
 
 ## Основные особенности:
 * Конфигурация для Delta;
