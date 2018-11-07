@@ -1,5 +1,5 @@
 # Marlin-Erzay3D
-Прошивка Marlin 1.1.9 для принтеров Erzay3D 1.1/1.1M
+Прошивка Marlin 1.1.9 для принтеров Erzay3D 1.1/1.1M/Dual/Mix2/Mix3/Craft
 
 <img src="https://github.com/Robokinetics/Marlin-Erzay3D/blob/master/Logo2a.png?raw=true"/>
 
