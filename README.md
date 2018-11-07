@@ -3,6 +3,8 @@
 
 ![Image alt]: (https://github.com/Robokinetics/Marlin-Erzay3D/raw/master/Logo2a.png)
 
+<img src="https://github.com/Robokinetics/Marlin-Erzay3D/blob/master/Logo2a.png?raw=true"/>
+
 ## Основные особенности:
 * Конфигурация для Delta;
 * Рускоязычный интерфейс с небольшими исправлениями перевода;
