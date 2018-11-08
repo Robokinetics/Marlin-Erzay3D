@@ -54,3 +54,6 @@
 20. <b>Принтер готов к работе</b>.
 
 Подробнее о настройки прошивки для Delta-принтера: http://3dtoday.ru/blogs/xolodny/preparation-and-marlin-firmware-for-delta-printer/
+
+
+
