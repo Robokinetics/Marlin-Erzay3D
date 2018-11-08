@@ -3,6 +3,8 @@
 
 <img src="https://github.com/Robokinetics/Marlin-Erzay3D/blob/master/logo1.png"/>
 
+Репозиторий оригинальной прошивки: https://github.com/MarlinFirmware/Marlin
+
 ## Основные особенности:
 * Конфигурация для Delta;
 * Рускоязычный интерфейс с небольшими исправлениями перевода;
