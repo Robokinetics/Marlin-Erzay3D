@@ -26,8 +26,6 @@
  * directive USE_AUTOMATIC_VERSIONING.
  */
 
-#define SERIAL_NUMBER "XX-YYYY"
-
 #if ENABLED(USE_AUTOMATIC_VERSIONING)
 
   #include "_Version.h"
@@ -50,7 +48,7 @@
    * here we define this default string as the date where the latest release
    * version was tagged.
    */
-  #define STRING_DISTRIBUTION_DATE "2018-11-08"
+  #define STRING_DISTRIBUTION_DATE "2018-11-12"
 
   /**
    * Required minimum Configuration.h and Configuration_adv.h file versions.

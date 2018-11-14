@@ -35,6 +35,7 @@
  * Advanced settings can be found in Configuration_adv.h
  *
  */
+#define SERIAL_NUMBER "XX-YYYY"
  
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
@@ -134,7 +135,7 @@
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
-#define MACHINE_UUID "550d440c-df28-461b-86a7-f1ba3118b96c"
+#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
 
 // @section extruder
 
@@ -545,17 +546,17 @@
   #define DELTA_DIAGONAL_ROD 320.0 // mm
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 277.71 // get this value from auto calibrate
+  #define DELTA_HEIGHT 270.00 // get this value from auto calibrate
 
-  #define DELTA_ENDSTOP_ADJ {  -0.71, -3.26, +0.00 } // get these from auto calibrate
+  #define DELTA_ENDSTOP_ADJ {  0.00, 0.00, 0.00 } // get these from auto calibrate
 
   // Horizontal distance bridged by diagonal push rods when effector is centered.
-  #define DELTA_RADIUS 173.04 //mm  Get this value from auto calibrate
+  #define DELTA_RADIUS 170.00 //mm  Get this value from auto calibrate
 
   // Trim adjustments for individual towers
   // tower angle corrections for X and Y tower / rotate XYZ so Z tower angle = 0
   // measured in degrees anticlockwise looking from above the printer
-  #define DELTA_TOWER_ANGLE_TRIM { +0.38, -0.39, +0.01 } // get these values from auto calibrate
+  #define DELTA_TOWER_ANGLE_TRIM { 0.00, 0.00, 0.00 } // get these values from auto calibrate
 
   // delta radius and diaginal rod adjustments measured in mm
   //#define DELTA_RADIUS_TRIM_TOWER { 0.0, 0.0, 0.0 }
@@ -1564,7 +1565,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY
 
 /**
  * LCD Menu Items
