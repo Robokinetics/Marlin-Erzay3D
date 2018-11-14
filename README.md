@@ -35,7 +35,7 @@
 1. Скачайте и распакуйте архив исходного кода прошивки;
 2. Скачайте и установите Arduino IDE: https://www.arduino.cc/en/main/software
 3. Запустите Arduino IDE и откройте через него файл Marlin/Marlin.ino;
-4. Откройте вкладку "Version.h" и укажите серийный номер Вашего принтера, если он Вам известен в строке "#define SERIAL_NUMBER "XX-YYYY"", где XX-YYYY - серийный номер;
+4. Откройте вкладку "Configuration.h" и укажите серийный номер Вашего принтера, если он Вам известен в строке "#define SERIAL_NUMBER "XX-YYYY"", где XX-YYYY - серийный номер;
 5. Во вкладке "Configuration.h" найдите строку "#define MACHINE_UUID "550d440c-df28-461b-86a7-f1ba3118b96c"" и укажите в нём UUID Вашего принтера, если он известен;
 6. В строке "#define DELTA_PRINTABLE_RADIUS 100.0" укажите радиус области печати в мм, в строке "#define DELTA_DIAGONAL_ROD 320.0" укажите длину тяговых в мм;
 7. Сделайте прочие изменения в файла "Configuration.h" и "Configuration_adv.h", если необходимо;
