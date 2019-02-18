@@ -3,9 +3,9 @@
 
 <img src="https://github.com/Robokinetics/Marlin-Erzay3D/blob/master/logo.png"/>
 
-Репозиторий оригинальной прошивки: https://github.com/MarlinFirmware/Marlin
-Сайт разработчиков Marlin: http://marlinfw.org
-Документация по командам Marlin: http://marlinfw.org/meta/gcode/
+* Репозиторий оригинальной прошивки: https://github.com/MarlinFirmware/Marlin
+* Сайт разработчиков Marlin: http://marlinfw.org
+* Документация по командам Marlin: http://marlinfw.org/meta/gcode/
 
 ## Основные особенности:
 * Конфигурация <b>Delta</b>-кинематики 3D-принтера;
