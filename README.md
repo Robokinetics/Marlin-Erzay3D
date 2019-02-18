@@ -40,7 +40,7 @@
 3. Запустите <b>Arduino IDE</b> и откройте через него файл <b>Marlin/Marlin.ino</b>;
 4. Откройте вкладку <b>Configuration.h</b> и укажите серийный номер Вашего принтера, если он Вам известен в строке <b>#define SERIAL_NUMBER "XX-YYYY"</b>, где <b>XX-YYYY</b> - серийный номер;
 5. Во вкладке <b>Configuration.h</b> найдите строку, начинающуюся с <b>#define MACHINE_UUID</b> и укажите в кавычках UUID Вашего принтера, если он известен;
-6. В строке <b>#define DELTA_PRINTABLE_RADIUS 100.0</b> укажите радиус области печати в мм, в строке <b>#define DELTA_DIAGONAL_ROD 320.0</b> укажите длину тяговых в мм;
+6. В строке <b>#define DELTA_PRINTABLE_RADIUS 100.0</b> укажите радиус области печати в мм, в строке <b>#define DELTA_DIAGONAL_ROD 320.0</b> укажите длину тяговых в мм (обычно это <b>320.0</b>);
 7. Сделайте прочие изменения в файла <b>Configuration.h</b> и <b>Configuration_adv.h</b>, если необходимо. Подробнее читайте: http://marlinfw.org/docs/configuration/configuration.html или https://3dtoday.ru/blogs/akdzg/custom-firmware-marlin-and-pour-it-into-a-3d-printer/;
 8. В меню <b>Инструменты->Плата</b> выберите плату, установленную на Вашем принтере (обычно это <b>Arduino/Genuino Mega or Mega2560</b>)
 9. В меню <b>Инструменты->Процессор</b> выберите процессор, установленный на Вашем принтере (обычно это <b>ATmega2560 (Mega2560)</b>);
